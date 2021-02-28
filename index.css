@@ -1,0 +1,116 @@
+#h1,
+#h2 {
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+#bg1 {
+    width: 750px;
+    height: 302px;
+    margin: 50px auto;
+    /* padding-top: 100px; */
+    position: relative;
+    z-index: 3;
+}
+
+#banner {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    position: absolute;
+    z-index: auto;
+    position: relative;
+}
+
+#Bimg {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    float: right;
+}
+
+#Bimg div {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#Bimg img {
+    position: absolute;
+}
+
+.watch1 {
+    position: absolute;
+    z-index: 3;
+}
+
+.watch2 {
+    position: absolute;
+    z-index: 2;
+}
+
+.watch3 {
+    position: absolute;
+    z-index: 1;
+}
+
+#left {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    z-index: 4;
+}
+
+#right {
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    z-index: 4;
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#slider {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    background: #CCC;
+    opacity: 0.4;
+    cursor: move;
+    display: none;
+    filter: alpha(opacity=40);
+}
+
+#description {
+    position: absolute;
+    z-index: 5;
+    top: 10px;
+    left: 10px;
+}
+
+#bg2 {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    margin-bottom: 0;
+}
+
+#bg2 td {
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+}
