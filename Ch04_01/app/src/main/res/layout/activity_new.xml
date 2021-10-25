@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img_dp"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/chitose"
+        />
+    <ImageView
+        android:id="@+id/img_in"
+        android:layout_width="128in"
+        android:layout_height="128in"
+        android:src="@drawable/chitose"
+        />
+    <ImageView
+        android:id="@+id/img_mm"
+        android:layout_width="128mm"
+        android:layout_height="128mm"
+        android:src="@drawable/chitose"
+
+        />
+    <ImageView
+        android:id="@+id/img_pt"
+        android:layout_width="128pt"
+        android:layout_height="128pt"
+        android:src="@drawable/chitose"
+        />
+    <ImageView
+        android:id="@+id/img_px"
+        android:layout_width="128px"
+        android:layout_height="128px"
+        android:src="@drawable/chitose"
+
+        />
+    <ImageView
+        android:id="@+id/img_sp"
+        android:layout_width="128sp"
+        android:layout_height="128sp"
+        android:src="@drawable/chitose"
+
+        />
+</LinearLayout>
